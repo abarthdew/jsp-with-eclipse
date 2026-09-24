@@ -1,10 +1,3 @@
----
-title: 2. JSP with Eclipse
-date: 2022-04-01
-categories: [Back, JSP]
-tags: [Back, JSP]
----
-
 ## 20. 서블릿 필터(Servlet Filter)
 
 - 톰캣(서버)는 사용자 요청이 들어오면 적절한 소프트웨어를 실행해서 응답함
@@ -81,7 +74,7 @@ tags: [Back, JSP]
 
 - button : 덧셈
     
-    ![raw data](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/78.png){: width="350"}
+    ![raw data](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/78.png)
     _raw data_
     
 
@@ -259,7 +252,7 @@ res.getWriter().printf("result is %d\n", result);
     
     ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/91.png)
     
-    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/92.png){: width="350"}
+    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/92.png)
     
 - path를 /add로 설정했을 때
     
@@ -344,7 +337,7 @@ res.getWriter().printf("result is %d\n", result);
 
 - 단순히 exp = "";이렇게 하면 쿠키가 삭제되지 않음
     
-    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/105.png){: width="300"}
+    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/105.png)
     
 
 ```jsx
@@ -472,7 +465,7 @@ protected void doPost(HttpServletRequest req, HttpServletResponse res) {
     
     → 프로젝트를 실행하면 배포하게 되는데, 이때 톰캣의 홈 디렉토리로 옮겨지게 됨.
     
-    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/112.png){: width="300"}
+    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/112.png)
     
 - 하지만, 톰캣은 여러 서비스를 운영할 수 있기에 실제 톰캣의 워크 디렉토리가 아닌 이클립스가 관리하는 서비스 운영을 위한 별도의 사본을 만들게 됨.
     

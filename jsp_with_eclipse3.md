@@ -1,10 +1,3 @@
----
-title: 3. JSP with Eclipse
-date: 2022-04-01
-categories: [Back, JSP]
-tags: [Back, JSP]
----
-
 ## 45. JSP  MVC model1
 
 - jsp를 잘못 만들면 코드 블럭이 복잡해지는 문제 해결을 위해 고안
@@ -215,7 +208,7 @@ _~scope는 객체가 아니라 한정사임_
 
 - 가져올 수 있는 request 정보들
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/156.png){: width="450"}
+![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/156.png)
 
 - pageContext 내 객체를 얻을 때는 getter로 씀.
     1. 코드 블럭으로 표기할때 : getter 함수 사용.
@@ -227,7 +220,7 @@ _~scope는 객체가 아니라 한정사임_
 
 - 종류
     
-    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/158.png){: width="350"}
+    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/158.png)
     
 
 ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/159.png)
@@ -300,7 +293,7 @@ _~scope는 객체가 아니라 한정사임_
 
 3. 오라클 드라이버 lib 폴더에 넣기
     
-    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/162.png){: width="350"}
+    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/162.png)
     
     - 이 예시에선 프로젝트 - build path 에서 order and expert에 ojdbc를 넣으면 안 됨.
     - jar 파일은 컴파일 할 때, 실행할 때 필요하기 때문.
