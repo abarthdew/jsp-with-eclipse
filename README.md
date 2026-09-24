@@ -1,11 +1,5 @@
----
-title: JSP for Eclipse - List
-date: 2022-04-01
-categories: [Back, JSP]
-tags: [Back, JSP]
----
+# [JSP for Eclipse - List](https://github.com/abarthdew/jsp-with-eclipse)
 
-# [JSP for Eclipse - List](https://github.com/abarthdew/jsp-with-eclipse){:target="_blank"}
 ## 핵심정리
 
 > 💡 서버상 저장소   
@@ -23,7 +17,7 @@ tags: [Back, JSP]
 
 ## 개발 구조
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/eclipse-jsp/main/images/1.png){: width="200" style="margin-right: 10px;" .left}
+![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/1.png)
 
 <br>
 **← 개발을 하기 위한 워크스페이스**
@@ -31,7 +25,7 @@ tags: [Back, JSP]
 - 실제 서버를 실행하면, 이 코드는 임시 서비스를 위한 배포 서버에 옮겨지게 됨
 - `.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\86_admin` 여기
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/eclipse-jsp/main/images/2.png){: width="300" .right}
+![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/2.png)
 
 
 <br>
@@ -39,7 +33,7 @@ tags: [Back, JSP]
 
 > ➡️ **98강, 102강의 upload 경로도 여기 생김**
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/eclipse-jsp/main/images/3.png)
+![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/3.png)
 
 ## 데이터베이스 정보
 - 50_project
@@ -77,7 +71,7 @@ SELECT * FROM COMMENT2;
 
 - 86_admin : notice 테이블에 대한 pub 컬럼 추가
 
-![ex_screenshot](https://raw.githubusercontent.com/abarthdew/eclipse-jsp/main/images/notice-pub.PNG)
+![ex_screenshot](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/notice-pub.PNG)
 
 ```sql
 CREATE VIEW NOTICE_VIEW

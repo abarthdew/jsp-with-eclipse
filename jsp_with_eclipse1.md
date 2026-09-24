@@ -1,10 +1,3 @@
----
-title: 1. JSP with Eclipse
-date: 2022-04-01
-categories: [Back, JSP]
-tags: [Back, JSP]
----
-
 ## 2. 웹 서버 프로그램이란
 
 - 예전에는 콘솔 프로그램, 윈도우 프로그램 처럼 프로그램 단위로 나뉨.
@@ -368,9 +361,9 @@ _강의화면_
     
 5. 자바 파일 만들기
 
-    ![localhost(src/main/java)](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/34.png){: width="200"}
+    ![localhost(src/main/java)](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/34.png)
     _localhost(src/main/java)_
-    ![강의(Java Resources/src)](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/35.png){: width="200"}
+    ![강의(Java Resources/src)](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/35.png)
     _강의(Java Resources/src)_
 
 6. src/main/java에 패키지 생성, Nana class 생성
@@ -455,7 +448,7 @@ _강의화면_
 
 ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/42.png)
 
-![실행화면-크롬](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/43.png){: width="300"}
+![실행화면-크롬](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/43.png)
 _실행화면-크롬_
 
 - out.println(i + " : Hello Servlet !!"); 의 서로 다른 구조
@@ -488,7 +481,7 @@ _크롬_
 
 - out.println(i + " : 안녕 Servlet !! </br>"); 실행 화면
     
-    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/49.png){: width="300"}
+    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/49.png)
     
 - res.setCharacterEncoding("UTF-8"); 추가 후 재실행
 
@@ -514,7 +507,7 @@ _엣지_
     
     ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/51.png)
     
-    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/52.png){: width="350"}
+    ![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/52.png)
     
     - 인코딩 방식에 대한 정보를 Response Headers에 심어줌 → 브라우저가 자의적으로 해석하지 않고, 정해진 대로 수행.
         
@@ -535,7 +528,7 @@ _엣지_
         ```
         
     
-    ![실행결과](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/53.png){: width="400"}
+    ![실행결과](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/53.png)
     _실행결과_
     
     ![Response Headers](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/54.png)
@@ -635,9 +628,9 @@ title=dafdfasdfasdf&content=dfsddfasdfsddfasdfsddfasdfsddfasdfsddfasdfsddfasdfsd
 // 해당 형태로 요청된 것
 ```
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/65.png){: width="400"}
+![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/65.png)
 
-![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/66.png){: width="400"}
+![Untitled](https://raw.githubusercontent.com/abarthdew/jsp-with-eclipse/main/images/66.png)
 
 ## 19. 한글 입력 문제
 
